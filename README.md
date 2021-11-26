@@ -15,7 +15,7 @@ In addition to the IBM docs, this tool helps software developers using IBM Assem
 
 Future Use
 ----------
-This tool has a VBA code behind it, intended to automate parsing. 
+This tool has a VBA code behind it, intended to automate parsing. You can view the code by going to the Developer menu item in Excel and then choosing Visual Basic option. 
 
 If and when the Z390 project updates ZOPCHECK, load the instruction set strings from the copybook in column 2 (starting row 2) and Click the Parse button. If all goes well, Column O shows a Match string.
 
