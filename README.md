@@ -1,6 +1,4 @@
 # HLASM-Instruction-Set-XRef
-IBM Assembler Instruction Set XRef
--------------------------------------------
 Based on z390 ZOPCHECK.CPY (courtesy Don Higgins), this is an Excel xref that allows for quick search by mnemonic or opcode.
 
 For further reference see z390.info - z390 Portable Mainframe Assembler, Linker, and Emulator Open Source Project.
