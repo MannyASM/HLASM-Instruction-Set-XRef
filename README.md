@@ -1,5 +1,7 @@
 # HLASM-Instruction-Set-XRef
-Based on z390 ZOPCHECK.CPY (courtesy Don Higgins), this is an Excel xref that allows for quick search by mnemonic or opcode.
+Based on z390 ZOPCHECK.CPY (courtesy Don Higgins), this is an Excel xref that allows for quick investigation of the IBM ISA via search by mnemonic or opcode.
+
+There are 2,358 mnemonics/opcodes represented here.
 
 For further reference see z390.info - z390 Portable Mainframe Assembler, Linker, and Emulator Open Source Project.
 
@@ -11,6 +13,12 @@ ZOPCHECK.CPY is a file that contains the instruction set found in Architecture P
 
 This Excel tool parses each line in that copybook and organizes the data in a way that is easily sorted and searchable.
 
-This is intended to help software developers using IBM Assembly Language quickly reference mnemonics and opcodes, their operands, etc.
+In addition to the IBM docs, this tool helps software developers using IBM Assembly Language to quickly reference mnemonics and opcodes, their operands, etc. Relevant data (columns C through M) can be sorted b/c filters are set for each column.
+
+Future Use
+----------
+This tool has a VBA code behind it, intended to automate parsing. 
+
+If and when the Z390 project updates ZOPCHECK, load the instruction set strings from the copybook in column 2 (starting row 2) and Click the Parse button. If all goes well, Column O shows a Match string.
 
 Enjoy!
