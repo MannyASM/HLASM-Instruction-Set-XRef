@@ -1,7 +1,7 @@
 # HLASM-Instruction-Set-XRef
 Based on z390 ZOPCHECK.CPY (courtesy Don Higgins), this is an Excel xref that allows for quick investigation of the IBM ISA via search by mnemonic or opcode.  There are 2,358 mnemonics/opcodes represented here.
 
-For further reference see www.Z390.info - z390 Portable Mainframe Assembler, Linker, and Emulator Open Source Project.
+For further reference see https://github.com/z390development/z390 (former www.Z390.info) - z390 Portable Mainframe Assembler, Linker, and Emulator Open Source Project.
 
 Overview
 ----------
